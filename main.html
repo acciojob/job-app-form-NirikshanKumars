@@ -8,6 +8,31 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="/action_page.php" method="post" target="_blank">
+		<label for="name"><b>Name*</b></label><br>
+		<input type="text" id="fname" name="fname" placeholder="First Name" required><br>
+		<input type="text" id="lname" name="lname" placeholder="Last Name" required><br>
+		<label for="email"><b>Email:</b><br>
+			<input type="email" placeholder="Email:Id"required><br>
+			<label for="Gender" id="Gender" required><b>Gender*</b></label><br>
+			<input type="radio" name="gender">Male
+			<input type="radio" name="gender">Female
+			<input type="radio" name="gender">Others<br>
+			<label for="Brands" id="brands"><b>Laptop Brands</b><br>
+			<select name="Brands" id="cars">
+			<option value="Choose One">Choose One</option>	
+			<option value="Apple">Apple</option>
+			<option value="HP">HP</option>
+			<option value="ASUS">ASUS</option><br>
+			</select><br>
+				<label for="Age" name="Age"><b>Age*</b></label><br>
+				<input type="tel"required><br>
+				<label for="DOB" name="DOB"><b>Date Of Birth*</b></label><br>
+				<input type="date"required><br>
+				<label for="Password" name="Age"><b>Password*</b></label><br>
+				<input type="password"required><br>
+				<button>Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
